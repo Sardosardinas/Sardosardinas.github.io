@@ -1,11 +1,11 @@
 /*this is the header white part to separate the navigation bar from the content*/
 header{ 
-    border: #cccccc;
     margin:0 auto;
     background-color:#ffffff;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    border-bottom:2px solid #cccccc;
 }
 
 /*In this one I'm having a section called navigation to wrap my name division and the nav tag*/
