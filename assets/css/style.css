@@ -176,7 +176,6 @@ form{
 /*this is the footer, its format, color and absolute position to the bottom*/
 footer{
     text-align: center;
-    margin:0 auto;
     background-color: #777777;
     height: 80px;
     color:#ffffff;
@@ -190,6 +189,114 @@ footer{
 #footerText{
     position: relative;
     top: 10px; 
+    text-align: center;
 }
+
+@media only screen and (max-width: 768px){
+
+
+    .navigation{
+        width: 100%;
+        margin: 0 auto;
+        height:80px;
+    }
+
+    .name h1{
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+        position: relative;
+        top: 15px;
+        font-size: 30px;
+    }
+
+    hr{
+        width:100%;
+    }
+
+
+    nav{ 
+        border:1px;
+        font-family: Arial, Helvetica, sans-serif;
+    }  
+
+    .container{
+        border: solid 1px;
+        border-color: #dddddd;
+        background-color: #ffffff;
+        clear:both;
+        width: 80%;
+    }
+
+    #about{
+        float:right;
+        color:#777777;
+        font-family: Arial, Helvetica, sans-serif;
+        width:60%;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .formbox{
+        width:100%;
+    }
+
+    #message{
+        width:100%;
+    }
+
+    #footerPort{
+        position:relative;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 640px){
+    .name{
+        background-color: #4aaaa5;
+        color: white;
+        float:left;
+        width:100%;
+        padding:0px;
+        text-align:center;
+        border: 1px;
+        height: 100%;
+        position: relative;
+       
+    }
+    
+    .nav{
+        position: absolute;
+        width: 100%;
+        margin-right:40px;
+    }
+
+    img{
+        width:100%;
+    }
+
+    #about{
+        width:100%;
+        margin: 10px;
+
+    }
+
+    p{
+        text-align: justify;
+        width:100%;
+    }
+
+    footer{
+        position:relative;
+    }
+
+    #contactFoot{
+        position: absolute;
+    }
+}
+
+
+
 
 
